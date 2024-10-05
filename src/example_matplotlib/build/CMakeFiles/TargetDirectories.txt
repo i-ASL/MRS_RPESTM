@@ -1,0 +1,3 @@
+/home/gihun/Documents/practice/example_matplotlib/build/CMakeFiles/result_plot.dir
+/home/gihun/Documents/practice/example_matplotlib/build/CMakeFiles/edit_cache.dir
+/home/gihun/Documents/practice/example_matplotlib/build/CMakeFiles/rebuild_cache.dir

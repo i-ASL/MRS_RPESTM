@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="rosbag" type="record" name="record_ros"
+        args="-o /home/gihun/catkin_tools_ws/files/1003/
+            /sync_data
+               --duration 60" 
+        output="screen"/>
+</launch>

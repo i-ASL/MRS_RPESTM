@@ -1,0 +1,11 @@
+<launch>
+
+    <node pkg="multiple_turtlebots_estm" type="get_local_se2_pose.py" name="get_local_se2_pose" />
+    <node pkg="multiple_turtlebots_estm" type="move_turtlebot.py" name="move_turtlebot"/>
+
+    <node pkg="multiple_turtlebots_estm" type="relative_measrement" name="relative_measrement"/>
+    <node pkg="multiple_turtlebots_estm" type="my_kf_node" name="my_kf_node"/>
+
+    <node pkg="rosbag" type="play" name="rosbag_play" required="true" args="/home/gihun/catkin_tools_ws/files/1002/2023-10-02-17-09-17.bag --topics /noisy_measurements"/>
+    
+</launch>

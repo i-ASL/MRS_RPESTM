@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/result_plot.dir/src/main.cpp.o -o result_plot  -lpython3.8 
