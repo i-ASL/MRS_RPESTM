@@ -1,3 +1,8 @@
+# This paper has been accepted for publication in T-IV 2024
+
+https://ieeexplore.ieee.org/document/10713843
+
+
 # Multi-Robot Relative Pose Estimation in SE(2) with Observability Analysis: A Comparison of Extended Kalman Filtering and Robust Pose Graph Optimization (T-IV)
 
 In this study, we address challenges in multi-robot localization, with a particular focus on cooperative localization and the observability analysis of relative pose estimation. Cooperative localization enhances each robot’s information accuracy through communication networks and message passing. When odometry data from a target robot can be transmitted to an ego robot, the observability of their relative pose estimation can be achieved using either range-only or bearing-only measurements, provided that both robots have non-zero linear velocities. However, if the target robot’s odometry data is not directly transmitted and must instead be estimated by the ego robot, both range and bearing measurements are necessary to ensure observability. This research validates the feasibility of relative pose estimation in ground-based multi-robot systems by exploring different sensing and communication structures. 
@@ -8,7 +13,7 @@ In ROS/Gazebo simulations, we compare the estimation accuracy of extended Kalman
 
 
 # Package Summary
-- Requirements
+- Requirements updated soon!
 
 # Try it out
 `roslaunch multiple_turtlebots_sim simulation_kalman.launch`
