@@ -4,6 +4,9 @@ In this study, we address challenges in multi-robot localization, with a particu
 
 In ROS/Gazebo simulations, we compare the estimation accuracy of extended Kalman filter (EKF) and pose graph optimization (PGO) methods, incorporating different robust loss functions through filtering and smoothing techniques, with varying sliding window batch sizes. For hardware experiments, two TurtleBot3 robots equipped with UWB modules were used to estimate inter-robot relative poses in real-world scenarios, employing both EKF and PGO-based methods. The real-world experiments demonstrate the practical applicability of the proposed decentralized relative pose estimation methods, which rely solely on onboard sensing without the need for inter-robot communication. 
 
+![environment5](https://github.com/user-attachments/assets/3a715daf-36a6-42d9-a024-5b18964e8a25)
+
+
 # Package Summary
 - Requirements
 
